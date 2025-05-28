@@ -2984,10 +2984,10 @@ input, select, textarea {
 
 	}
 .logo-bg {
-    background-color: rgba(0, 0, 0, 0.6); /* jasne tło z przezroczystością */
+    background-color: rgba(58, 58, 58, 0.6); /* jasne tło z przezroczystością */
     padding: 20px 30px;
     border-radius: 10px;
     display: inline-block;
-    max-width: 20%;
+    max-width: 30%;
     text-align: center;
 }
