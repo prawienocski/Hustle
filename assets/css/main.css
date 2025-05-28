@@ -2983,3 +2983,9 @@ input, select, textarea {
 						}
 
 	}
+	.logo-bg {
+	    background-color: rgba(255, 255, 255, 0.6); /* jasne tło z przezroczystością */
+	    padding: 20px;
+	    border-radius: 10px;
+	    display: inline-block;
+	}
