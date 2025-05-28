@@ -2988,6 +2988,6 @@ input, select, textarea {
     padding: 20px 30px;
     border-radius: 10px;
     display: inline-block;
-    max-width: 30%;
+    max-width: 25%;
     text-align: center;
 }
