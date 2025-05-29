@@ -2984,11 +2984,11 @@ input, select, textarea {
 
 	}
 .logo-bg {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(47, 51, 59, 0.6);
     padding: 20px 30px;
     border-radius: 10px;
     display: inline-block;
-    max-width: 90%;
+    max-width: 20%;
     text-align: center;
     margin: 0 auto;
 }
