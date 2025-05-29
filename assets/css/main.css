@@ -3009,3 +3009,9 @@ html {
         font-size: 1em;
     }
 }
+#highlights .image.featured img {
+    width: 100%;
+    height: 220px; /* zmień, jeśli chcesz wyższą lub niższą */
+    object-fit: cover;
+    border-radius: 8px; /* opcjonalnie – zaokrąglone rogi */
+}
