@@ -2991,3 +2991,6 @@ input, select, textarea {
     max-width: 25%;
     text-align: center;
 }
+html {
+  scroll-behavior: smooth;
+}
