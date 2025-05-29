@@ -2988,7 +2988,7 @@ input, select, textarea {
     padding: 20px 30px;
     border-radius: 10px;
     display: inline-block;
-    max-width: 20%;
+    max-width: 90%;
     text-align: center;
     margin: 0 auto;
 }
