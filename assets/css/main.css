@@ -2984,13 +2984,28 @@ input, select, textarea {
 
 	}
 .logo-bg {
-    background-color: rgba(58, 58, 58, 0.6); /* jasne tło z przezroczystością */
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 20px 30px;
     border-radius: 10px;
     display: inline-block;
-    max-width: 25%;
+    max-width: 90%;
     text-align: center;
+    margin: 0 auto;
 }
 html {
   scroll-behavior: smooth;
+}
+@media screen and (max-width: 480px) {
+    .logo-bg {
+        padding: 15px 20px;
+        font-size: 0.9em;
+    }
+
+    .logo-bg h1 {
+        font-size: 1.4em;
+    }
+
+    .logo-bg p {
+        font-size: 1em;
+    }
 }
