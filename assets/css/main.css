@@ -3016,12 +3016,22 @@ html {
     border-radius: 8px; /* opcjonalnie – zaokrąglone rogi */
 }
 #nav {
-	position: absolute;
+	position: sticky;
 	top: 0;
-	left: 0;
 	width: 100%;
-	text-align: center;
-	z-index: 2; /* Musi być ponad gradientem */
+	background-color: rgba(255, 255, 255, 0.95); /* prawie białe tło */
+	z-index: 1000;
+	padding: 1em 0;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* delikatny cień pod spodem */
+	transition: background-color 0.3s ease;
+}
+#nav a {
+	color: #222 !important; /* ciemny tekst */
+	text-decoration: none;
+}
+
+#nav a:hover {
+	color: #0074cc; /* możesz zmienić na kolor firmowy, np. niebieski */
 }
 .top-gradient-overlay {
 	position: absolute;
