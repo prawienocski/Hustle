@@ -3033,4 +3033,42 @@ html {
 	pointer-events: none;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
+.hero-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+	width: 100%;
+	position: relative;
+}
+
+.hero-box {
+	background: rgba(255, 255, 255, 0.92);
+	padding: 2.5em 2em;
+	border-radius: 12px;
+	box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+	max-width: 600px;
+	width: 90%;
+}
+
+.hero-box h1 {
+	font-size: 2.5em;
+	margin-bottom: 0.5em;
+	color: #1a1a1a;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.hero-box p {
+	font-size: 1.2em;
+	color: #333;
+	margin-bottom: 1.2em;
+}
+
+.hero-box .button {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.9em;
+}
 
