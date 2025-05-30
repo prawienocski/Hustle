@@ -3019,11 +3019,15 @@ html {
 	position: sticky;
 	top: 0;
 	width: 100%;
-	background-color: rgba(255, 255, 255, 0.95); /* prawie białe tło */
+	background-color: rgba(255, 255, 255, 0.95);
 	z-index: 1000;
+	text-align: center;
 	padding: 1em 0;
-	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* delikatny cień pod spodem */
-	transition: background-color 0.3s ease;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+#nav ul {
+	margin: 0 auto;
+	display: inline-block;
 }
 #nav a {
 	color: #222 !important; /* ciemny tekst */
