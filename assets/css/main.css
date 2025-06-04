@@ -3064,16 +3064,11 @@ html {
 	font-size: 0.9em;
 }
 .nav-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0 2em;
 	background-color: rgba(255, 255, 255, 0.95);
 	position: sticky;
 	top: 0;
 	z-index: 1000;
 	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-	gap: 2em; /* jeśli nie masz */
 }
 
 .nav-logo img {
@@ -3091,7 +3086,6 @@ html {
 	gap: 2em;
 	list-style: none;
 	margin: 0;
-	margin-left: auto; /* menu przesuwa się na prawo */
 	padding: 0;
 }
 
@@ -3107,14 +3101,15 @@ html {
 	font-size: 0.85em;
 	letter-spacing: 0.05em;
 }
+
 .nav-container {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
-	margin-left: auto;
+	padding: 0.5em 2em;
+	width: 100%;
 }
 
 /* Dropdown styling (unchanged) */
