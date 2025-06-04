@@ -3088,19 +3088,20 @@ html {
 	width: auto;
 	display: block;
 }
-
 #nav {
 	margin: 0;
 }
 
 #nav ul {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 2em;
-	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 #nav ul li {
-	list-style: none;
 	position: relative;
 }
 
@@ -3112,6 +3113,7 @@ html {
 	font-size: 0.85em;
 	letter-spacing: 0.05em;
 }
+
 
 /* Dropdown styling (unchanged) */
 #nav ul li ul {
