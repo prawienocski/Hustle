@@ -3015,14 +3015,6 @@ html {
     object-fit: cover;
     border-radius: 8px; /* opcjonalnie – zaokrąglone rogi */
 }
-#nav {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	text-align: center;
-	z-index: 2; /* Musi być ponad gradientem */
-}
 .top-gradient-overlay {
 	position: absolute;
 	top: 0;
@@ -3122,6 +3114,7 @@ html {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
+	margin-left: auto;
 }
 
 /* Dropdown styling (unchanged) */
