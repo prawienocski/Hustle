@@ -3118,7 +3118,3 @@ html {
 #nav ul li ul li a {
 	color: #222;
 }
-#nav {
-	position: relative;
-	z-index: 10;
-}
