@@ -3074,3 +3074,21 @@ html {
 	text-align: center;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+#nav {
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	padding: 1.5em 2em;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(8px);
+}
+
+#nav ul {
+	display: flex;
+	justify-content: center;
+	gap: 2em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
