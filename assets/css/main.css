@@ -3082,7 +3082,7 @@ html {
 	margin-bottom: 2em;
 }
 .hero-logo {
-	width: 180px;          /* dopasuj do swojej strony — 140–200px zazwyczaj wygląda dobrze */
+	width: 360px;          /* dopasuj do swojej strony — 140–200px zazwyczaj wygląda dobrze */
 	max-width: 90%;        /* responsywność na małych ekranach */
 	height: auto;
 	display: block;
