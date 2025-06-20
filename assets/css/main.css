@@ -3079,3 +3079,12 @@ html {
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 	margin-bottom: 2em;
 }
+.hero-logo {
+	width: 180px;          /* dopasuj do swojej strony — 140–200px zazwyczaj wygląda dobrze */
+	max-width: 90%;        /* responsywność na małych ekranach */
+	height: auto;
+	display: block;
+	margin: 0 auto 1em auto;
+	object-fit: contain;
+	filter: drop-shadow(0 2px 6px rgba(0,0,0,0.15));
+}
