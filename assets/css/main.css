@@ -3099,3 +3099,17 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
+.project-gallery {
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	margin: 1em 0;
+}
+
+.project-gallery img {
+	width: 100%;
+	max-width: 32%;
+	border-radius: 8px;
+	object-fit: cover;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
