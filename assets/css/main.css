@@ -3091,6 +3091,6 @@ html {
 	filter: drop-shadow(0 2px 6px rgba(0,0,0,0.15));
 }
 section#intro {
-	margin-top: 10em; /* lub więcej – możesz testować np. 6em */
+	margin-top: 16em; /* lub więcej – możesz testować np. 6em */
 	padding-top: 2em;
 }
