@@ -3072,6 +3072,8 @@ html {
 	border-radius: 12px;
 	text-align: center;
 	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	position: relative;
+	z-index: 10;
 }
 
 #nav ul {
@@ -3117,4 +3119,8 @@ html {
 
 #nav ul li ul li a {
 	color: #222;
+}
+#nav {
+	position: relative;
+	z-index: 10;
 }
