@@ -2078,7 +2078,7 @@ input, select, textarea {
 		}
 
 		.homepage #header {
-			height: 35em;
+			height: 100vh;
 		}
 
 /* Logo */
@@ -3093,4 +3093,8 @@ html {
 section#intro {
 	margin-top: 16em; /* lub więcej – możesz testować np. 6em */
 	padding-top: 2em;
+}
+html, body {
+	margin: 0;
+	padding: 0;
 }
