@@ -2060,8 +2060,8 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		position: relative;
-		height: 24em;
-		background: url("../../images/Elewacje1.jpg") center center;
+		height: 100vh;
+		background: url("../../images/Elewacje1.jpg") center center no-repeat;
 		background-size: cover;
 		padding: 0;
 	}
