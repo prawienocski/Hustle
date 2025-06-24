@@ -2062,7 +2062,6 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 100vh;
-		background: url("../../images/Elewacje1.jpg") center center no-repeat;
 		background-size: cover;
 		padding: 0;
 	}
@@ -3112,4 +3111,16 @@ html, body {
 	border-radius: 8px;
 	object-fit: cover;
 	box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+body.index #header {
+	background-image: url("../../images/Elewacje1.jpg");
+}
+
+body.no-sidebar #header {
+	background-image: url("../../images/Elewacje.jpg");
+}
+
+body.right-sidebar #header {
+	background-image: url("../../images/Elewacje3.jpg");
 }
