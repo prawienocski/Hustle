@@ -3114,11 +3114,11 @@ html, body {
 }
 
 body.index #header {
-	background-image: url("../../images/Elewacje1.jpg");
+	background-image: url("../../images/Elewacje.jpg");
 }
 
 body.no-sidebar #header {
-	background-image: url("../../images/Elewacje.jpg");
+	background-image: url("../../images/Elewacje1.jpg");
 }
 
 body.right-sidebar #header {
