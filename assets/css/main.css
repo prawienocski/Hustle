@@ -1976,6 +1976,7 @@ input, select, textarea {
 			margin-bottom: -3.25em;
 			margin-left: -12.5em;
 			padding-top: 0.5em;
+			z-index: 850;
 		}
 
 			.wrapper .title:before {
