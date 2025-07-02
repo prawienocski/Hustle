@@ -3124,3 +3124,7 @@ body.no-sidebar #header {
 body.right-sidebar #header {
 	background-image: url("../../images/Elewacje3.jpg");
 }
+
+.wrapper.style2 .title {
+	background-color: #fff !important;
+}
