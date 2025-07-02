@@ -2117,7 +2117,7 @@ input, select, textarea {
 		left: 0;
 		width: 100%;
 		text-align: center;
-		z-index: 10;
+		z-index: 1000;
 	}
 
 		#nav > ul {
@@ -3025,7 +3025,7 @@ html {
 	left: 0;
 	width: 100%;
 	height: 150px; /* lub więcej, np. 200px */
-	z-index: 1;
+	z-index: 100;
 	pointer-events: none;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
@@ -3151,5 +3151,5 @@ body.right-sidebar #header {
   background-position: center;
   position: relative;
   text-align: center;
-  z-index: 2;
+  z-index: 1;
 }
