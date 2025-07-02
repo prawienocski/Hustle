@@ -3021,7 +3021,7 @@ html {
     border-radius: 8px; /* opcjonalnie – zaokrąglone rogi */
 }
 .top-gradient-overlay {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
