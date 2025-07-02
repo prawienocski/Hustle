@@ -3156,3 +3156,7 @@ body.right-sidebar #header {
   text-align: center;
   z-index: 1;
 }
+#main.wrapper {
+  position: relative;
+  z-index: 1; /* to też może pomóc, ale niekonieczne */
+}
