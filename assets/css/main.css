@@ -2112,13 +2112,13 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		position: absoulte;
+		position: fixed;
 		display: block;
 		top: 0;
 		left: 0;
 		width: 100%;
 		text-align: center;
- 		z-index: 850;
+ 		z-index: 1000;
 	}
 
 		#nav > ul {
