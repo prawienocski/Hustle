@@ -1,1 +1,282 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Anwi-bud</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			#footer h3 {color: white !important;}
+		</style>
+	</head>
+	<body class="homepage index is-preload">
+		<div class="top-gradient-overlay"></div>
+		<div id="page-wrapper">
+		<!-- Header -->
+<section id="header" class="wrapper">
+	<nav id="nav">
+		<ul>
+			<li class="current"><a href="index.html">Strona główna</a></li>
+			<li>
+				<a href="#">Poznaj nas</a>
+				<ul>
+					<li><a href="#intro">Wizja</a></li>
+					<li><a href="#highlights">Czym się zajmujemy?</a></li>
+					<li><a href="#main">Nasze fundamenty</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="no-sidebar.html">Nasze realizacje</a>
+				<ul>
+					<li><a href="#">Włocławek</a>
+						<ul>
+							<li><a href="no-sidebar.html#main">ul. Kościuszki</a></li>
+							<li><a href="no-sidebar.html#main1">ul. Żelazna</a></li>
+							<li><a href="no-sidebar.html#main2">ul. 3 Maja</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Grudziądz</a>
+						<ul>
+							<li><a href="no-sidebar.html#main3">ul. Marymoncka</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Płock</a>
+						<ul>
+							<li><a href="no-sidebar.html#main4">ul. Jakaś tam</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="right-sidebar.html">Termomodernizacja</a>
+				<ul>
+					<li><a href="right-sidebar.html#main">Czym jest termomodernizacja?</a></li>
+				</ul>
+			</li>
+			<li><a href="#footer">Kontakt</a></li>
+		</ul>
+	</nav>
+	<div class="hero-container">
+		<div class="hero-box">
+			<img src="images/Anwibud_logo_przezroczyste.png" alt="Anwibud Logo" class="hero-logo" />
+			<p>Termomodernizacja i modernizacje od 1998 roku</p>
+			<a href="no-sidebar.html" class="button style1">Zobacz nasze realizacje</a>
+		</div>
+	</div>
+</section>
+			<!-- Intro -->
+				<section id="intro" class="wrapper style1">
+					<div class="title">Wizja</div>
+					<div class="container">
+						<p class="style1">Działamy na rynku termomodernizacji od 1998 r.</p>
+						<p class="style2">
+							Sprawdź, dlaczego od ponad 25 lat <br class="mobile-hide" />
+							klienci wybierają właśnie nas
+						</p>
+						<p class="style3">Anwibud to rodzinna firma z <strong>Włocławka</strong>. 
+						Chcemy zmieniać otaczającą przestrzeń, tworząc trwałe, estetyczne i energooszczędne budynki.
+						Naszym celem jest być zaufanym partnerem dla wspólnot, spółdzielni i instytucji w całej <strong>Polsce</strong>, 
+						oferując kompleksowe i rzetelne rozwiązania w zakresie termomodernizacji oraz modernizacji budynków.
+						Stawiamy na rozwój zespołu, nowoczesne technologie i jakość, która realnie poprawia <strong>komfort życia mieszkańców</strong>.</p>
+					</div>
+				</section>
+			<!-- Main -->
+				<!-- Highlights -->
+				<section id="highlights" class="wrapper style3">
+					<div class="title">Czym się zajmujemy</div>
+					<div class="container">
+						<div class="row aln-center">
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/Budo1.jpg" alt="" /></a>
+									<h3><a href="#">Prace ogólnobudowlane</a></h3>
+									<p>Wykonujemy remonty klatek schodowych, montaż balustrad, układanie płytek i inne prace wykończeniowe.
+									Działamy sprawnie, z poszanowaniem przestrzeni wspólnych i życia mieszkańców.
+									Dbamy o trwałość, estetykę i funkcjonalność w każdej realizacji.</p>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="no-sidebar.html" class="image featured"><img src="images/Termo1.jpg" alt="" /></a>
+									<h3><a href="#">Termomodernizacja budynków</a></h3>
+									<p>Zajmujemy się kompleksowym dociepleniem elewacji, stropów i dachów.
+									Nasze prace poprawiają nie tylko estetykę budynku, ale też realnie obniżają koszty ogrzewania.
+									Współpracujemy z renomowanymi dostawcami materiałów i gwarantujemy jakość na lata.</p>
+									<ul class="actions">
+										<li><a href="right-sidebar.html" class="button style1">Dowiedz się więcej</a></li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-4 col-12-medium">
+								<section class="highlight">
+									<a href="#" class="image featured"><img src="images/Budo2.jpg" alt="" /></a>
+									<h3><a href="#">Niestandardowe realizacje</a></h3>
+									<p>Podejmujemy się złożonych zadań - 
+									Nasze doświadczenie pozwala na realizację projektów wymagających precyzji i koordynacji.
+									Nie boimy się wyzwań — szukamy rozwiązań tam, gdzie inni widzą tylko trudności.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="main" class="wrapper style2">
+					<div class="title">O nas</div>
+					<div class="container">
+						<!-- Image -->
+							<a href="#" class="image featured">
+								<img src="images/Elewacje2.jpg" alt="" /> <!-- Tutaj może takie zbliżenie fajne
+								loga nawibud na budynku firmy-->
+							</a>
+						<!-- Features -->
+							<section id="features">
+								<header class="style1">
+									<h2>Dlaczego klienci wybierają Anwibud?</h2>
+									<p>Od ponad 25 lat rozwijamy się razem z naszymi klientami, budując markę opartą na doświadczeniu, jakości i zaufaniu.</p>
+								</header>
+								<div class="feature-list">
+									<div class="row">
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon fa-building">Z troską o otoczenie</h3>
+												<p>Dbamy o rzetelność, terminowość i kontakt z mieszkańcami na każdym etapie prac.
+												Dzięki temu nasze realizacje przebiegają sprawnie i z poszanowaniem codziennego rytmu życia całej wspólnoty.</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon solid fa-sync">Działamy kompleksowo i niezależnie</h3>
+												<p>Mamy własne rusztowania, sprzęt i transport – nie korzystamy z podwykonawców. Mamy pełną kontrolę nad jakością, terminami i każdym etapem realizacji. </p>
+											</section>
+										</div>
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon solid fa-users">Doświadczony i zgrany zespół</h3>
+												<p>Przez lata stworzyliśmy zgrany i doświadczony zespół ponad 50 osób. Każdy z nas wnosi profesjonalizm i zaangażowanie do realizowanych projektów. </p>
+											</section>
+										</div>
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon solid fa-globe">Działamy w całej Polsce</h3>
+												<p>Realizujemy inwestycje na terenie całej Polski: Włocławek, Łódź, Gdańsk, Gdynia, Płock, Toruń i wiele innych miast.</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon solid fa-calendar">Od początku do końca</h3>
+												<p>Prowadzimy pełną opiekę nad projektem – od planowania po realizację. Zapewniamy spójność, porządek i terminowość</p>
+											</section>
+										</div>
+										<div class="col-6 col-12-medium">
+											<section>
+												<h3 class="icon solid fa-check">Jakość potwierdzona referencjami</h3>
+												<p>Jakość to dla nas podstawa – i potwierdzają to liczne referencje od inwestorów publicznych, prywatnych oraz deweloperskich. Zaufali nam Ci, którzy wymagają najwięcej</p>
+											</section>
+										</div>
+									</div>
+								</div>
+							</section>
+					</div>
+				</section>
+			
+				<section id="footer" class="wrapper">
+					<div class="title">Kontakt</div>
+					<div class="container">
+						<header class="style1">
+							<h2>Skontaktuj się z nami!</h2>
+							<p>
+								Masz pytania dotyczące współpracy, realizacji lub oferty?
+								Szukasz wykonawcy, podwykonawcy albo pracy?
+								Napisz do nas — odpowiemy na każdą wiadomość!
+							</p>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<!-- Contact Form -->
+									<section>
+										<form action="https://formspree.io/f/mwpoggpg" method="POST">
+											<div class="row gtr-50">
+												<div class="col-6 col-12-small">
+													<input type="text" name="name" id="contact-name" placeholder="Imię" />
+												</div>
+												<div class="col-6 col-12-small">
+													<input type="text" name="email" id="contact-email" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<textarea name="message" id="contact-message" placeholder="Wiadomość" rows="4"></textarea>
+												</div>
+												    <!-- Honeypot: ukryte pole dla botów -->
+												    <div style="display:none">
+												      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+												    </div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" class="style1" value="Wyślij" /></li>
+														<li><input type="reset" class="style2" value="Wyczyść" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
 
+							</div>
+							<div class="col-6 col-12-medium">
+								<!-- Contact -->
+									<section class="feature-list small">
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-home">Adres</h3>
+													<p>
+														Anwi-Bud<br />
+														ul. Płocka 9a<br />
+														Włocławek, 87-800
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-comment">Nasze profile</h3>
+													<p>
+														<a href="#">linkedin.com/untitled</a><br />
+														<a href="#">facebook.com/untitled</a>
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-envelope">Email</h3>
+													<p>
+														<a href="#">anwibiuro@wp.pl</a>
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-phone">Telefon</h3>
+													<p>
+														(54) 233 33 33
+													</p>
+												</section>
+											</div>
+										</div>
+									</section>
+							</div>
+						</div>
+						<div id="copyright">
+							<ul>
+								<li>&copy; Anwibud 2025</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+		</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
