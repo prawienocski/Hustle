@@ -3132,10 +3132,11 @@ body.right-sidebar #header {
 	background-color: #fff !important;
 }
 .frosted-box {
-  display: inline-block;
-
+  display: block;
+  width: 100%;
+  max-width: 700px;
   /* Rozmiar pudełka: */
-  padding: 2rem 2rem; /* góra/dół, lewo/prawo */
+  padding: 2rem ; /* góra/dół, lewo/prawo */
 
   /* Tło: */
   background: rgba(255, 255, 255, 0.4); /* półprzezroczyste tło */
@@ -3155,6 +3156,8 @@ body.right-sidebar #header {
   margin: 0 auto;
   position: relative;
   z-index: 800;
+
+  box-sizing: border-box;
 }
 
 
