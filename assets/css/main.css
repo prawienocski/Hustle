@@ -3133,33 +3133,20 @@ body.right-sidebar #header {
 }
 .frosted-box {
   display: block;
-  width: 100%;
   max-width: 700px;
-  /* Rozmiar pudełka: */
-  padding: 2rem ; /* góra/dół, lewo/prawo */
-
-  /* Tło: */
-  background: rgba(255, 255, 255, 0.4); /* półprzezroczyste tło */
-  backdrop-filter: blur(10px); /* efekt "frosted glass" */
-  -webkit-backdrop-filter: blur(10px); /* dla Safari */
-
-  /* Obramowanie i cień: */
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-
-  /* Wyrównanie i rozmiar: */
   text-align: center;
-  width: fit-content;
-  max-width: 90%; /* nie przekraczaj szerokości */
-
-  /* Pozycjonowanie: */
-  margin: 0 auto;
   position: relative;
   z-index: 800;
-
-  box-sizing: border-box;
+  box-sizing: border-box; /* <-- kluczowe */
 }
-
 
 #header {
   display: flex;
