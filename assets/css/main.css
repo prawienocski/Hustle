@@ -3024,12 +3024,11 @@ html {
 	position: fixed;
 	top: 0;
 	left: 0;
-	width: 80%;
-	height: 100px; /* lub więcej, np. 200px */
+	width: 800px; /* ustalona szerokość – edytowalna */
+	height: 100px; /* mniejsza wysokość */
 	z-index: 900;
 	pointer-events: none;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
-	border-radius: 12px; /* opcjonalnie – lekko zaokrąglone */
 }
 .hero-container {
 	display: flex;
