@@ -3025,7 +3025,7 @@ html {
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 950 px; /* edytowalne: np. 700px, min(90%, 800px), itd. 870 teraz jest */
+	width: 950px; /* edytowalne: np. 700px, min(90%, 800px), itd. 870 teraz jest */
 	height: 80px; /* edytowalne */
 	z-index: 900;
 	pointer-events: none;
