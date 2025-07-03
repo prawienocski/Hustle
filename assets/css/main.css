@@ -3025,11 +3025,11 @@ html {
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 100%; /* edytowalne: np. 700px, min(90%, 800px), itd. 870 teraz jest */
+	width: 950 px; /* edytowalne: np. 700px, min(90%, 800px), itd. 870 teraz jest */
 	height: 80px; /* edytowalne */
 	z-index: 900;
 	pointer-events: none;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
 	/*border-radius: 14px; /* opcjonalnie dla estetyki */
 }
 .hero-container {
@@ -3137,7 +3137,7 @@ body.right-sidebar #header {
   width: 90%;
   margin: 0 auto;
   padding: 2rem 3rem;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(30, 30, 30, 0.5); /* półprzezroczysta czerń */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
