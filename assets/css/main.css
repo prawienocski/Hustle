@@ -3026,20 +3026,20 @@ html {
   left: 50%;
   transform: translateX(-50%);
   width: 950px;
-  height: 120px; /* większa wysokość dla rozmycia w dół */
+  height: 120px;
   z-index: 900;
   pointer-events: none;
 
-  /* Gradient promienisty — ciemno na środku, rozjaśnia się na brzegach */
   background: radial-gradient(
     ellipse at top center,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(0, 0, 0, 0.4) 40%,
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 0.6) 30%,
+    rgba(0, 0, 0, 0.1) 80%,
     rgba(0, 0, 0, 0) 100%
   );
 
-  filter: blur(20px); /* efekt rozmycia po bokach */
-  border-radius: 16px; /* opcjonalnie */
+  filter: blur(20px);
+  border-radius: 16px;
 }
 .hero-container {
 	display: flex;
