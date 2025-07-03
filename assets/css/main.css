@@ -3025,12 +3025,13 @@ html {
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
-	width: 870px; /* edytowalne: np. 700px, min(90%, 800px), itd. */
+	width: fit-content; /* edytowalne: np. 700px, min(90%, 800px), itd. 870 teraz jest */
 	height: 60px; /* edytowalne */
+	padding: 0 2rem; /* wyznacz margines cienia wokół menu */
 	z-index: 900;
 	pointer-events: none;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2));
-	border-radius: 12px; /* opcjonalnie dla estetyki */
+	border-radius: 14px; /* opcjonalnie dla estetyki */
 }
 .hero-container {
 	display: flex;
@@ -3135,7 +3136,7 @@ body.right-sidebar #header {
   display: inline-block;
 
   /* Rozmiar pudełka: */
-  padding: 2rem 2.5rem; /* góra/dół, lewo/prawo */
+  padding: 2rem 2rem; /* góra/dół, lewo/prawo */
 
   /* Tło: */
   background: rgba(255, 255, 255, 0.4); /* półprzezroczyste tło */
