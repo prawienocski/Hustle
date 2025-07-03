@@ -15,7 +15,7 @@ small, strike, strong, sub, sup, tt, var, b,
 u, i, center, dl, dt, dd, ol, ul, li, fieldset,
 form, label, legend, table, caption, tbody,
 tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
+canvas, details, embed, figure, figcaption,F
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
@@ -3028,7 +3028,7 @@ html {
 	height: 100px; /* mniejsza wysokość */
 	z-index: 900;
 	pointer-events: none;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
 }
 .hero-container {
 	display: flex;
