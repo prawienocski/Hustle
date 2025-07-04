@@ -3131,47 +3131,43 @@ body.right-sidebar #header {
 .wrapper.style2 .title {
 	background-color: #fff !important;
 }
-/* GŁÓWNY bazowy styl dla wszystkich frostów */
+/* GŁÓWNY bazowy styl */
 .frosted-box {
   display: block;
   margin: 0 auto;
   text-align: center;
-  color: white;
+  color: #111; /* ciemny tekst na jasnym tle */
   border-radius: 20px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   box-sizing: border-box;
   position: relative;
   z-index: 800;
+  background: rgba(255, 255, 255, 0.5); /* JASNE TŁO */
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* WARIANT 1: no-sidebar (domyślny) */
-.frosted-box.default {
-  background: rgba(30, 30, 30, 0.5);
-  padding: 2rem 3rem;
-  max-width: 700px;
-  width: 90%;
-}
-
-/* WARIANT 2: strona główna (duży hero-box) */
+/* .hero – strona główna */
 .frosted-box.hero {
-  background: rgba(255, 255, 255, 0.5); /* jasne tło */
-  color: #111; /* ciemny tekst */
-  padding: 2rem 2rem; /* zmniejszony padding */
-  max-width: 500px; /* mniejszy niż wcześniej */
+  padding: 2rem 2rem;
+  max-width: 500px;
   width: 90%;
-  border: 1px solid rgba(255, 255, 255, 0.2); /* delikatna ramka */
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15); /* lekki cień */
 }
 
-/* WARIANT 3: right-sidebar (szeroki, niski frost) */
+/* .wide – np. right-sidebar */
 .frosted-box.wide {
-  background: rgba(0, 0, 0, 0.7);
-  padding: 1.2rem 3rem;
+  padding: 1.5rem 2rem;
   max-width: 1000px;
   width: 100%;
+}
 
+/* .default – np. no-sidebar */
+.frosted-box.default {
+  padding: 2rem 2.5rem;
+  max-width: 700px;
+  width: 90%;
+	
 #header {
   display: flex;
   align-items: center;
