@@ -3186,7 +3186,20 @@ body.right-sidebar #header {
 .frosted-box.default a {
 	color: #111 !important;
 }
-	
+/* Wymuszenie ciemnych kolorów w frost-boxie */
+.frosted-box h1,
+.frosted-box h2,
+.frosted-box h3,
+.frosted-box p {
+	color: #111 !important;
+}
+
+/* Konieczne osobno dla linków (h1 > a) */
+.frosted-box h1 a,
+.frosted-box h2 a {
+	color: #111 !important;
+	text-decoration: none;
+}	
 #header {
   display: flex;
   align-items: center;
