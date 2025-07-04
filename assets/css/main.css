@@ -3175,7 +3175,18 @@ body.right-sidebar #header {
 .wrapper.style1 .frosted-box a {
 	color: #111 !important;
 }
-
+	
+.frosted-box.default h1,
+.frosted-box.default h2,
+.frosted-box.default h3,
+.frosted-box.default h4,
+.frosted-box.default h5,
+.frosted-box.default h6,
+.frosted-box.default p,
+.frosted-box.default a {
+	color: #111 !important;
+}
+	
 #header {
   display: flex;
   align-items: center;
