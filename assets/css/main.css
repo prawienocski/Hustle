@@ -3131,22 +3131,43 @@ body.right-sidebar #header {
 .wrapper.style2 .title {
 	background-color: #fff !important;
 }
+/* GŁÓWNY bazowy styl dla wszystkich frostów */
 .frosted-box {
   display: block;
-  max-width: 700px;
-  width: 90%;
   margin: 0 auto;
-  padding: 2rem 3rem;
-  background: rgba(30, 30, 30, 0.5); /* półprzezroczysta czerń */
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  box-sizing: border-box;
   position: relative;
   z-index: 800;
-  box-sizing: border-box; /* <-- kluczowe */
 }
+
+/* WARIANT 1: no-sidebar (domyślny) */
+.frosted-box.default {
+  background: rgba(30, 30, 30, 0.5);
+  padding: 2rem 3rem;
+  max-width: 700px;
+  width: 90%;
+}
+
+/* WARIANT 2: strona główna (duży hero-box) */
+.frosted-box.hero {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 4rem 3rem;
+  max-width: 600px;
+  width: 90%;
+}
+
+/* WARIANT 3: right-sidebar (szeroki, niski frost) */
+.frosted-box.wide {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1.2rem 3rem;
+  max-width: 1000px;
+  width: 100%;
 
 #header {
   display: flex;
