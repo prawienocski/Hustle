@@ -3021,26 +3021,17 @@ html {
     border-radius: 8px; /* opcjonalnie – zaokrąglone rogi */
 }
 .top-gradient-overlay {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 950px;
-  height: 160px;
-  z-index: 900;
-  pointer-events: none;
-
-  background: radial-gradient(
-    ellipse at top center,
-    rgba(0, 0, 0, 0.98) 0%,     /* centralna czerń */
-    rgba(0, 0, 0, 0.7) 35%,     /* przytłumienie dookoła */
-    rgba(0, 0, 0, 0.2) 75%,     /* poświata */
-    rgba(0, 0, 0, 0) 100%       /* rozmycie do tła */
-  );
-
-  filter: blur(28px); /* rozmycie do miękkości */
-  border-radius: 20px;
-}
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%; /* edytowalne: np. 700px, min(90%, 800px), itd. 870 teraz jest */
+	height: 80px; /* edytowalne */
+	z-index: 900;
+	pointer-events: none;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0));
+	/*border-radius: 14px; /* opcjonalnie dla estetyki */
+} 
 .hero-container {
 	display: flex;
 	justify-content: center;
