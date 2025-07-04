@@ -3171,14 +3171,14 @@ body.right-sidebar #header {
 .frosted-box h1,
 .frosted-box h2,
 .frosted-box h3 {
-  color: #111; /* głęboki, ciemny nagłówek */
+  color: #111 !important;
 }
 
 .frosted-box p {
-  color: #444; /* czytelny tekst pomocniczy */
+  color: #444 !important;
   letter-spacing: 0.05em;
 }
-
+	
 #header {
   display: flex;
   align-items: center;
