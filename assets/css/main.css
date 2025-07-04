@@ -3168,15 +3168,14 @@ body.right-sidebar #header {
   max-width: 700px;
   width: 90%;
 	
-#logo.frosted-box.default h1,
-#logo.frosted-box.default h1 a {
-  color: #111 !important;
+.wrapper.style1 .frosted-box h1,
+.wrapper.style1 .frosted-box h2,
+.wrapper.style1 .frosted-box h3,
+.wrapper.style1 .frosted-box p,
+.wrapper.style1 .frosted-box a {
+	color: #111 !important;
 }
 
-#logo.frosted-box.default p {
-  color: #444 !important;
-}
-	
 #header {
   display: flex;
   align-items: center;
