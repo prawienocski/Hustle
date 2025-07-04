@@ -3156,10 +3156,13 @@ body.right-sidebar #header {
 
 /* WARIANT 2: strona główna (duży hero-box) */
 .frosted-box.hero {
-  background: rgba(0, 0, 0, 0.4);
-  padding: 4rem 3rem;
-  max-width: 500px;
+  background: rgba(255, 255, 255, 0.5); /* jasne tło */
+  color: #111; /* ciemny tekst */
+  padding: 2rem 2rem; /* zmniejszony padding */
+  max-width: 500px; /* mniejszy niż wcześniej */
   width: 90%;
+  border: 1px solid rgba(255, 255, 255, 0.2); /* delikatna ramka */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15); /* lekki cień */
 }
 
 /* WARIANT 3: right-sidebar (szeroki, niski frost) */
