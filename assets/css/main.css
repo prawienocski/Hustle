@@ -3167,17 +3167,6 @@ body.right-sidebar #header {
   padding: 2rem 2.5rem;
   max-width: 700px;
   width: 90%;
-
-.frosted-box h1,
-.frosted-box h2,
-.frosted-box h3 {
-  color: #111 !important;
-}
-
-.frosted-box p {
-  color: #444 !important;
-  letter-spacing: 0.05em;
-}
 	
 #header {
   display: flex;
