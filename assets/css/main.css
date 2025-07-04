@@ -3026,20 +3026,20 @@ html {
   left: 50%;
   transform: translateX(-50%);
   width: 950px;
-  height: 120px;
+  height: 160px;
   z-index: 900;
   pointer-events: none;
 
   background: radial-gradient(
     ellipse at top center,
-    rgba(0, 0, 0, 0.95) 0%,
-    rgba(0, 0, 0, 0.6) 30%,
-    rgba(0, 0, 0, 0.1) 80%,
-    rgba(0, 0, 0, 0) 100%
+    rgba(0, 0, 0, 0.98) 0%,     /* centralna czerń */
+    rgba(0, 0, 0, 0.7) 35%,     /* przytłumienie dookoła */
+    rgba(0, 0, 0, 0.2) 75%,     /* poświata */
+    rgba(0, 0, 0, 0) 100%       /* rozmycie do tła */
   );
 
-  filter: blur(20px);
-  border-radius: 16px;
+  filter: blur(28px); /* rozmycie do miękkości */
+  border-radius: 20px;
 }
 .hero-container {
 	display: flex;
