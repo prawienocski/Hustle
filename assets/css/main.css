@@ -2033,7 +2033,11 @@ input, select, textarea {
 				.wrapper.style2 * {
 					    color: #111 !important;
 					}
-
+					.wrapper.style2 .button.style1,
+					.wrapper.style2 .button.style1:hover,
+					.wrapper.style2 .button.style1:active {
+					    color: #fff !important;
+					}
 		.wrapper.style3 {
 			background: #f3f3f3 url("images/overlay.png");
 		}
