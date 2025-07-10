@@ -3,22 +3,7 @@ layout: default
 title: Termomodernizacja
 permalink: /termomodernizacja/
 ---
-<nav id="nav">
-  <ul>
-    <li><a href="{{ '/' | relative_url }}">Strona główna</a></li>
-    <li>
-      <a href="#">Poznaj nas</a>
-      <ul>
-        <li><a href="{{ '/#intro' | relative_url }}">Wizja</a></li>
-        <li><a href="{{ '/#highlights' | relative_url }}">Czym się zajmujemy?</a></li>
-        <li><a href="{{ '/#main' | relative_url }}">Nasze fundamenty</a></li>
-      </ul>
-    </li>
-    <li><a href="{{ '/realizacje/' | relative_url }}">Nasze realizacje</a></li>
-    <li><a href="{{ '/termomodernizacja/' | relative_url }}">Termomodernizacja</a></li>
-    <li><a href="#footer">Kontakt</a></li>
-  </ul>
-</nav>
+{% include nav.html %}
 <div class="top-gradient-overlay"></div>
 <section id="header" class="wrapper style2">
   <div id="logo" class="frosted-box wide">
