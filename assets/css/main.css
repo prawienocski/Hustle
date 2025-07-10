@@ -2038,6 +2038,12 @@ input, select, textarea {
 					.wrapper.style2 .button.style1:active {
 					    color: #fff !important;
 					}
+
+					    .wrapper.style2 .image.featured img {
+					        max-height: 400px;
+					        width: 100%;
+					        object-fit: cover;
+					    }
 		.wrapper.style3 {
 			background: #f3f3f3 url("images/overlay.png");
 		}
