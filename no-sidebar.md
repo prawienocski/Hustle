@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<!--
+	Escape Velocity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Anwi-bud - Nasze realizacje</title>
+		<link rel="icon" type="image/x-icon" href="favicon.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			#footer h3 {color: white !important;}
+		</style>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Strona główna</a></li>
+								<li>
+									<a href="#">Poznaj nas</a>
+									<ul>
+										<li><a href="index.html#intro">Wizja</a></li>
+										<li><a href="index.html#highlights">Czym się zajmujemy?</a></li>
+										<li><a href="index.html#main">Nasze fundamenty</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="no-sidebar.html">Nasze realizacje</a>
+									<!--<ul>
+										<li><a href="#">Włocławek</a>
+											<ul>
+												<li><a href="#main">ul. Kościuszki</a></li>
+												<li><a href="#main1">ul. Żelazna</a></li>
+												<li><a href="#main2">ul. 3 maja</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Grudziądz</a>
+											<ul>
+												<li><a href="#main3">ul. Marymoncka</a></li>
+											</ul>
+										</li>
+										<li><a href="#">Płock</a>
+											<ul>
+												<li><a href="#main4">ul. Jakaś tam</a></li>
+												<li><a href="#main5">ul. Jakaś tam2</a></li>
+											</ul>
+										</li>
+									</ul>
+									-->
+								</li>
+								<li>
+									<a href="right-sidebar.html">Termomodernizacja</a>
+									<ul>
+										<li><a href="right-sidebar.html#main">Czym jest termomodernizacja?</a></li>
+									</ul>
+								</li>
+								<li><a href="#footer ">Kontakt</a></li>
+							</ul>
+						</nav>
+						<div class="top-gradient-overlay"></div>
+
+				<section id="header" class="wrapper style2">
+					<div id="logo" class="frosted-box default">
+						<h1><a href="#">Nasze realizacje</a></h1>
+						<p>Niektóre z projektów, które zrealizowaliśmy w ostatnich latach</p>
+					</div>
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="wrapper style1">
+						<div class="title">Strona w trakcie przygotowania</div>
+						<div class="container">
+							<div id="content">
+								<article class="box post">
+									<header class="style1">
+										<h2>-----------</h2>
+										<p>----------------------</p>
+									</header>
+								</article>
+							</div>
+						</div>
+				</section>
+			<!--
+
+
+				<section id="main1" class="wrapper style2">
+					<div class="title">Włocławek ul. Żelazna</div>
+						<div class="container">
+							<div id="content">
+								<article class="box post">
+									<header class="style1">
+										<h2>Termomodernizacja</h2>
+										<p>Blok mieszkalny, wykonanie elewacji i docieplenie 2023 r.</p>
+									</header>
+									<div class="project-gallery">
+										<img src="images/Budo1.jpg" alt="Zdjęcie 1" />
+										<img src="images/Budo2.jpg" alt="Zdjęcie 2" />
+										<img src="images/Elewacje1.jpg" alt="Zdjęcie 3" />
+									</div>
+									<p>Zakres prac obejmował docieplenie ścian zewnętrznych, remont balkonów oraz wykonanie nowej elewacji w odcieniach jasnego beżu i grafitu. Prace wykonane dla Spółdzielni Mieszkaniowej „Zgoda”.</p>
+								</article>
+							</div>
+						</div>
+				</section>
+				<section id="main2" class="wrapper style3">
+					<div class="title">Włocławek ul. 3 Maja</div>
+						<div class="container">
+							<div id="content">
+								<article class="box post">
+									<header class="style1">
+										<h2>Budowa</h2>
+										<p>Blok mieszkalny, budowa 2023 r.</p>
+									</header>
+									<div class="project-gallery">
+										<img src="images/Budo1.jpg" alt="Zdjęcie 1" />
+										<img src="images/Budo2.jpg" alt="Zdjęcie 2" />
+										<img src="images/Elewacje1.jpg" alt="Zdjęcie 3" />
+									</div>
+									<p>Zakres prac obejmował docieplenie ścian zewnętrznych, remont balkonów oraz wykonanie nowej elewacji w odcieniach jasnego beżu i grafitu. Prace wykonane dla Spółdzielni Mieszkaniowej „Zgoda”.</p>
+								</article>
+							</div>
+						</div>
+				</section>
+				<section id="main3" class="wrapper style1">
+					<div class="title">Grudziądz ul. Marymoncka</div>
+					<div class="container">
+							<div id="content">
+								<article class="box post">
+									<header class="style1">
+										<h2>Termomodernizacja</h2>
+										<p>Blok mieszkalny, wykonanie elewacji i docieplenie 2023 r.</p>
+									</header>
+									<div class="project-gallery">
+										<img src="images/Budo1.jpg" alt="Zdjęcie 1" />
+										<img src="images/Budo2.jpg" alt="Zdjęcie 2" />
+										<img src="images/Elewacje1.jpg" alt="Zdjęcie 3" />
+									</div>
+									<p>Zakres prac obejmował docieplenie ścian zewnętrznych, remont balkonów oraz wykonanie nowej elewacji w odcieniach jasnego beżu i grafitu. Prace wykonane dla Spółdzielni Mieszkaniowej „Zgoda”.</p>
+								</article>
+							</div>
+					</div>
+				</section>
+				<section id="main4" class="wrapper style2">
+					<div class="title">Płock ul. Jakaś Tam</div>
+					<div class="container">
+							<div id="content">
+								<article class="box post">
+									<header class="style1">
+										<h2>Termomodernizacja</h2>
+										<p>Blok mieszkalny, wykonanie elewacji i docieplenie 2023 r.</p>
+									</header>
+									<div class="project-gallery">
+										<img src="images/Budo1.jpg" alt="Zdjęcie 1" />
+										<img src="images/Budo2.jpg" alt="Zdjęcie 2" />
+										<img src="images/Elewacje1.jpg" alt="Zdjęcie 3" />
+									</div>
+									<p>Zakres prac obejmował docieplenie ścian zewnętrznych, remont balkonów oraz wykonanie nowej elewacji w odcieniach jasnego beżu i grafitu. Prace wykonane dla Spółdzielni Mieszkaniowej „Zgoda”.</p>
+								</article>
+							</div>
+					</div>
+				</section>
+				<section id="main5" class="wrapper style3">
+					<div class="title">Płock ul. Jakaś Tam2</div>
+					<div class="container">
+							<div id="content">
+								<article class="box post">
+									<header class="style1">
+										<h2>Termomodernizacja</h2>
+										<p>Blok mieszkalny, wykonanie elewacji i docieplenie 2023 r.</p>
+									</header>
+									<div class="project-gallery">
+										<img src="images/Budo1.jpg" alt="Zdjęcie 1" />
+										<img src="images/Budo2.jpg" alt="Zdjęcie 2" />
+										<img src="images/Elewacje1.jpg" alt="Zdjęcie 3" />
+									</div>
+									<p>Zakres prac obejmował docieplenie ścian zewnętrznych, remont balkonów oraz wykonanie nowej elewacji w odcieniach jasnego beżu i grafitu. Prace wykonane dla Spółdzielni Mieszkaniowej „Zgoda”.</p>
+								</article>
+							</div>
+					</div>
+				</section>
+			-->
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="title">Kontakt</div>
+					<div class="container">
+						<header class="style1">
+							<h2>Skontaktuj się z nami!</h2>
+							<p>
+								Masz pytania dotyczące współpracy, realizacji lub oferty?
+								Szukasz wykonawcy, podwykonawcy albo pracy?
+								Napisz do nas — odpowiemy na każdą wiadomość!
+							</p>
+						</header>
+						<div class="row">
+							<div class="col-6 col-12-medium">
+								<!-- Contact Form -->
+									<section>
+										<form action="https://formspree.io/f/mwpoggpg" method="POST">
+											<div class="row gtr-50">
+												<div class="col-6 col-12-small">
+													<input type="text" name="name" id="contact-name" placeholder="Imię" />
+												</div>
+												<div class="col-6 col-12-small">
+													<input type="text" name="email" id="contact-email" placeholder="Email" />
+												</div>
+												<div class="col-12">
+													<textarea name="message" id="contact-message" placeholder="Wiadomość" rows="4"></textarea>
+												</div>
+												    <!-- Honeypot: ukryte pole dla botów -->
+												    <div style="display:none">
+												      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+												    </div>
+												<div class="col-12">
+													<ul class="actions">
+														<li><input type="submit" class="style1" value="Wyślij" /></li>
+														<li><input type="reset" class="style2" value="Wyczyść" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
+									</section>
+
+							</div>
+							<div class="col-6 col-12-medium">
+								<!-- Contact -->
+									<section class="feature-list small">
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-home">Adres</h3>
+													<p>
+														Anwi-Bud<br />
+														ul. Płocka 9a<br />
+														Włocławek, 87-800
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-comment">Nasze profile</h3>
+													<p>
+														<a href="https://www.linkedin.com/company/anwi-bud">linkedin.com/Anwibud</a><br />
+														<a href="https://www.facebook.com/Anwibud/">facebook.com/Anwibud</a>
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-envelope">Email</h3>
+													<p>
+														<a href="#">anwibiuro@wp.pl</a>
+													</p>
+												</section>
+											</div>
+											<div class="col-6 col-12-small">
+												<section>
+													<h3 class="icon solid fa-phone">Telefon</h3>
+													<p>
+														(54) 233 33 33
+													</p>
+												</section>
+											</div>
+										</div>
+									</section>
+							</div>
+						</div>
+						<div id="copyright">
+							<ul>
+								<li>&copy; Anwibud 2025</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
