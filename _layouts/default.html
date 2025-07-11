@@ -1,171 +1,34 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Anwi-bud</title>
-		<link rel="icon" type="image/x-icon" href="favicon.ico">
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<style>
-			#footer h3 {color: white !important;}
-		</style>
-	</head>
-	<body class="homepage index is-preload">
-		<div class="top-gradient-overlay"></div>
-		<div id="page-wrapper">
-		<!-- Header -->
-<section id="header" class="wrapper">
-	<nav id="nav">
-		<ul>
-			<li class="current"><a href="index.html">Strona główna</a></li>
-			<li>
-				<a href="#">Poznaj nas</a>
-				<ul>
-					<li><a href="#intro">Wizja</a></li>
-					<li><a href="#highlights">Czym się zajmujemy?</a></li>
-					<li><a href="#main">Nasze fundamenty</a></li>
-				</ul>
-			</li>
-			<li>
-				<a href="no-sidebar.html">Nasze realizacje</a>
-				<ul>
-					<li><a href="#">Włocławek</a>
-						<ul>
-							<li><a href="no-sidebar.html#main">ul. Kościuszki</a></li>
-							<li><a href="no-sidebar.html#main1">ul. Żelazna</a></li>
-							<li><a href="no-sidebar.html#main2">ul. 3 Maja</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Grudziądz</a>
-						<ul>
-							<li><a href="no-sidebar.html#main3">ul. Marymoncka</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Płock</a>
-						<ul>
-							<li><a href="no-sidebar.html#main4">ul. Jakaś tam</a></li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<a href="right-sidebar.html">Termomodernizacja</a>
-				<ul>
-					<li><a href="right-sidebar.html#main">Czym jest termomodernizacja?</a></li>
-				</ul>
-			</li>
-			<li><a href="#footer">Kontakt</a></li>
-		</ul>
-	</nav>
-	<div class="hero-container">
-		<div class="hero-box">
-			<img src="images/Anwibud_logo_przezroczyste.png" alt="Anwibud Logo" class="hero-logo" />
-			<p>Termomodernizacja i modernizacje od 1998 roku</p>
-			<a href="no-sidebar.html" class="button style1">Zobacz nasze realizacje</a>
-		</div>
-	</div>
-</section>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+    <style>
+      #footer h3 { color: white !important; }
+    </style>
+  </head>
+  <body class="homepage index is-preload">
+    <div id="page-wrapper">
+
+      {% include nav.html %}
+
+      <div class="top-gradient-overlay"></div>
 
       {{ content }}
-			
-				<section id="footer" class="wrapper">
-					<div class="title">Kontakt</div>
-					<div class="container">
-						<header class="style1">
-							<h2>Skontaktuj się z nami!</h2>
-							<p>
-								Masz pytania dotyczące współpracy, realizacji lub oferty?
-								Szukasz wykonawcy, podwykonawcy albo pracy?
-								Napisz do nas — odpowiemy na każdą wiadomość!
-							</p>
-						</header>
-						<div class="row">
-							<div class="col-6 col-12-medium">
-								<!-- Contact Form -->
-									<section>
-										<form action="https://formspree.io/f/mwpoggpg" method="POST">
-											<div class="row gtr-50">
-												<div class="col-6 col-12-small">
-													<input type="text" name="name" id="contact-name" placeholder="Imię" />
-												</div>
-												<div class="col-6 col-12-small">
-													<input type="text" name="email" id="contact-email" placeholder="Email" />
-												</div>
-												<div class="col-12">
-													<textarea name="message" id="contact-message" placeholder="Wiadomość" rows="4"></textarea>
-												</div>
-												    <!-- Honeypot: ukryte pole dla botów -->
-												    <div style="display:none">
-												      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
-												    </div>
-												<div class="col-12">
-													<ul class="actions">
-														<li><input type="submit" class="style1" value="Wyślij" /></li>
-														<li><input type="reset" class="style2" value="Wyczyść" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
 
-							</div>
-							<div class="col-6 col-12-medium">
-								<!-- Contact -->
-									<section class="feature-list small">
-										<div class="row">
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-home">Adres</h3>
-													<p>
-														Anwi-Bud<br />
-														ul. Płocka 9a<br />
-														Włocławek, 87-800
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-comment">Nasze profile</h3>
-													<p>
-														<a href="#">linkedin.com/untitled</a><br />
-														<a href="#">facebook.com/untitled</a>
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-envelope">Email</h3>
-													<p>
-														<a href="#">anwibiuro@wp.pl</a>
-													</p>
-												</section>
-											</div>
-											<div class="col-6 col-12-small">
-												<section>
-													<h3 class="icon solid fa-phone">Telefon</h3>
-													<p>
-														(54) 233 33 33
-													</p>
-												</section>
-											</div>
-										</div>
-									</section>
-							</div>
-						</div>
-						<div id="copyright">
-							<ul>
-								<li>&copy; Anwibud 2025</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</div>
-				</section>
-		</div>
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-	</body>
+      {% include footer.html %}
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/jquery.dropotron.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/browser.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/breakpoints.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/util.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  </body>
 </html>
